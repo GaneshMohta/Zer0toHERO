@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myforms</title>
+<body>
+    <form action="/form-handling-url" method="post">
+      <fieldset>
+         <legend>Add user</legend>
+         <div>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="first_name" >
+         </div>
+         <div>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="last_name" >
+         </div>
+         <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+         </div>
+         <div>
+            <label for="student">Status</label>
+            <select id="student" name="user_status_name">
+               <option value="student">Student</option>
+               <option value="instructor">Instructor</option>
+               <option value="guest">Guest</option>
+            </select>
+         </div>
+
+         <p>Choose your favorite programming language</p>
+         <div>
+               <input type="radio" id="html" name="fav8_lang">
+               <label for="html">HTML</label><br>
+               <input type="radio" id="css" name="fav8_lang">
+               <label for="css">CSS</label><br>
+               <input type="radio" id="js" name="fav8_lang">
+               <label for="js">JS</label><br>
+         </div>
+
+         <div>
+            <label for="Comment">Comment</label>
+            <textarea name="Comment" id="Comment"></textarea>
+         </div>
+
+         <div>
+            <input type="checkbox" id="condition" name="condition1">
+            <label for="condition">Signup for news letter</label><br>
+            <input type="checkbox" id="condition" name="condition2">
+            <label for="condition">Agree to termsand condition</label><br>
+            <button type="submit">Submit</button>
+         </div>
+      </fieldset>
+    </form>
+
+</body>
+
+
+</html>
